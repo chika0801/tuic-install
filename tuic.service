@@ -1,0 +1,18 @@
+[Unit]
+Description=TUIC, TUIC's goal is to minimize the handshake latency as much as possible.
+Documentation=https://github.com/EAimTY/tuic
+After=network.target
+
+[Service]
+User=root
+CapabilityBoundingSet=CAP_NET_BIND_SERVICE CAP_NET_RAW
+AmbientCapabilities=CAP_NET_BIND_SERVICE CAP_NET_RAW
+NoNewPrivileges=true
+WorkingDirectory=/root
+ExecStart=/root/tuic -c /root/tuic_config.json
+Restart=on-failure
+RestartPreventExitStatus=1
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

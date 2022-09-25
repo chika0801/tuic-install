@@ -41,3 +41,10 @@ systemctl status tuic
 
 </details>
 
+## v2rayN配置指南
+
+<details><summary>点击查看详细步骤</summary> 
+
+![sagernet](https://user-images.githubusercontent.com/88967758/192125877-25eb2878-451e-471a-a530-9b75e27f3b1e.jpg)
+
+</details>

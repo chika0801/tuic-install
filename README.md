@@ -29,7 +29,7 @@ systemctl status tuic
 
 官方文档 [Server](https://github.com/EAimTY/tuic/blob/dev/README.md#server) [Client](https://github.com/EAimTY/tuic/blob/dev/README.md#client)
 
-## SagerNet配置指南
+## v2rayN配置指南
 
 <details><summary>点击查看详细步骤</summary> 
 
@@ -41,7 +41,7 @@ systemctl status tuic
 
 </details>
 
-## v2rayN配置指南
+## SagerNet配置指南
 
 <details><summary>点击查看详细步骤</summary> 
 

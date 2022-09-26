@@ -3,19 +3,13 @@
         "server": "chika.example.com",
         "port": 16385,
         "token": "chika",
-        "ip": "",
-        "udp_relay_mode": "native",
         "congestion_controller": "bbr",
-        "heartbeat_interval": 10000,
         "alpn": ["h3"],
-        "disable_sni": false,
         "reduce_rtt": true,
-        "request_timeout": 8000,
         "max_udp_relay_packet_size": 1146
     },
     "local": {
         "port": 50001,
-        "ip": "127.0.0.1"
     },
     "log_level": "off"
 }

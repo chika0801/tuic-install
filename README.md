@@ -45,6 +45,6 @@ systemctl status tuic
 
 <details><summary>点击查看详细步骤</summary> 
 
-![sagernet](https://user-images.githubusercontent.com/88967758/192125905-0c3d49c8-6b3a-45c6-9f44-5eef397fcd4f.jpg)
+![sagernet](https://user-images.githubusercontent.com/88967758/192247392-a4e6756c-c829-4ba6-a96f-ca39e9b163f9.jpg)
 
 </details>

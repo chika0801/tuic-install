@@ -3,11 +3,6 @@
     "token": ["chika"],
     "certificate": "/root/fullchain.cer",
     "private_key": "/root/private.key",
-    "ip": "0.0.0.0",
     "congestion_controller": "bbr",
-    "max_idle_time": 15000,
-    "authentication_timeout": 1000,
     "alpn": ["h3"],
-    "max_udp_relay_packet_size": 1500,
-    "log_level": "info"
 }

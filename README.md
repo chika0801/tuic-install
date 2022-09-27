@@ -33,9 +33,9 @@ systemctl status tuic
 
 <details><summary>点击查看详细步骤</summary> 
 
-![1](https://user-images.githubusercontent.com/88967758/192555816-676a649f-449c-4eee-841c-2e4d246ea3bd.jpg)
+![1](https://user-images.githubusercontent.com/88967758/192556695-3b62d99a-8dee-46b8-b39a-0f13888e14fc.jpg)
 
-![2](https://user-images.githubusercontent.com/88967758/192125637-fec41d38-4867-4218-a128-d5b36daa0d4b.jpg)
+![2](https://user-images.githubusercontent.com/88967758/192556731-b13c11cd-2bda-4f38-90c5-ecac77c27eb9.jpg)
 
 ![3](https://user-images.githubusercontent.com/88967758/192125638-3d015582-6fdb-48f7-93fa-05626993a7ea.jpg)
 

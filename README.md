@@ -37,7 +37,7 @@ systemctl status tuic
 
 ![2](https://user-images.githubusercontent.com/88967758/192556731-b13c11cd-2bda-4f38-90c5-ecac77c27eb9.jpg)
 
-![3](https://user-images.githubusercontent.com/88967758/192125638-3d015582-6fdb-48f7-93fa-05626993a7ea.jpg)
+![3](https://user-images.githubusercontent.com/88967758/192557055-a91fb74f-0050-4a05-831c-ca795886b8c9.jpg)
 
 </details>
 

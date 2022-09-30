@@ -1,6 +1,6 @@
-## tuic安装指南
+## TUIC安装指南
 
-- 下载 [tuic](https://github.com/EAimTY/tuic/releases)
+- 下载 [TUIC](https://github.com/EAimTY/tuic/releases)
 - 程序 `/root/tuic`
 - 配置 `/root/tuic_config.json`
 - 证书 `/root/fullchain.cer`

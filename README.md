@@ -2,7 +2,7 @@
 
 1.下载程序
 ```
-curl -sLo /root/tuic https://github.com/EAimTY/tuic/releases/download/0.8.4/tuic-server-0.8.4-x86_64-linux-gnu && chmod +x /root/tuic
+curl -sLo /root/tuic https://github.com/EAimTY/tuic/releases/download/0.8.4/tuic-server-0.8.4-x86_64-linux-musl && chmod +x /root/tuic
 ```
 
 2.下载服务器配置

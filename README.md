@@ -31,7 +31,6 @@ systemctl start tuic
 systemctl status tuic
 ```
 
-- 下载 [TUIC](https://github.com/EAimTY/tuic/releases)
 - 程序 `/root/tuic`
 - 配置 `/root/tuic_config.json`
 - 证书 `/root/fullchain.cer`

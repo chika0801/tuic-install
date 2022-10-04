@@ -4,5 +4,5 @@
     "certificate": "/root/fullchain.cer",
     "private_key": "/root/private.key",
     "congestion_controller": "bbr",
-    "alpn": ["h3"],
+    "alpn": ["h3"]
 }

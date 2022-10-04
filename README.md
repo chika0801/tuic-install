@@ -40,7 +40,7 @@ systemctl status tuic
 - 查看日志 `journalctl -u tuic --output cat -e`
 - 实时日志 `journalctl -u tuic --output cat -f`
 
-官方文档 [Server](https://github.com/EAimTY/tuic/blob/dev/README.md#server) [Client](https://github.com/EAimTY/tuic/blob/dev/README.md#client)
+官方链接 [https://github.com/EAimTY/tuic](https://github.com/EAimTY/tuic)
 
 ## v2rayN配置指南
 

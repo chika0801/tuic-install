@@ -2,17 +2,17 @@
 
 1.下载程序
 ```
-curl -sLo /root/tuic https://github.com/EAimTY/tuic/releases/download/0.8.4/tuic-server-0.8.4-x86_64-linux-musl && chmod +x /root/tuic
+curl -Lo /root/tuic https://github.com/EAimTY/tuic/releases/download/0.8.4/tuic-server-0.8.4-x86_64-linux-musl && chmod +x /root/tuic
 ```
 
 2.下载服务器配置
 ```
-curl -sLo /root/tuic_config.json https://raw.githubusercontent.com/chika0801/tuic-install/main/config_server.json
+curl -Lo /root/tuic_config.json https://raw.githubusercontent.com/chika0801/tuic-install/main/config_server.json
 ```
 
 3.下载systemctl配置文件
 ```
-curl -sLo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chika0801/tuic-install/main/tuic.service
+curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chika0801/tuic-install/main/tuic.service
 ```
 
 4.上传证书和私钥

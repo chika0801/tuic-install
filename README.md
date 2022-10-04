@@ -43,6 +43,8 @@ systemctl status tuic
 
 ## v2rayN配置指南
 
+[下载TUIC](https://github.com/EAimTY/tuic/releases/download/0.8.4/tuic-client-0.8.4-x86_64-windows-msvc.exe)
+
 <details><summary>点击查看详细步骤</summary> 
 
 ![1](https://user-images.githubusercontent.com/88967758/192556695-3b62d99a-8dee-46b8-b39a-0f13888e14fc.jpg)

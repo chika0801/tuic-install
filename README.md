@@ -16,6 +16,7 @@ curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chik
 ```
 
 4.上传证书和私钥
+
 将证书文件改名为fullchain.cer，将密钥文件改名为private.key，使用WinSCP连接你的VPS，将它们上传到/root/目录。
 
 5.启动程序

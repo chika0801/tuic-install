@@ -1,17 +1,25 @@
 ## TUIC安装指南
 
-- 下载 [TUIC](https://github.com/EAimTY/tuic/releases)
-- 程序 `/root/tuic`
-- 配置 `/root/tuic_config.json`
-- 证书 `/root/fullchain.cer`
-- 私钥 `/root/private.key`
-- systemctl文件 `/etc/systemd/system/tuic.service`
-
-
+1.下载程序
 ```
-chmod +x /root/tuic
+curl -sLo /root/tuic https://github.com/EAimTY/tuic/releases/download/0.8.4/tuic-client-0.8.4-x86_64-linux-gnu && chmod +x /root/tuic
 ```
 
+2.下载服务器配置
+```
+curl -sLo /root/tuic_config.json https://raw.githubusercontent.com/chika0801/tuic-install/main/config_server.json
+```
+
+3.下载systemctl文件
+```
+curl -sLo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chika0801/tuic-install/main/tuic.service
+```
+
+4.上传证书和私钥
+将证书文件改名为fullchain.cer，将密钥文件改名为private.key，使用WinSCP连接你的VPS，将它们上传到/root/目录。
+
+
+5.启动程序
 ```
 systemctl daemon-reload && systemctl enable tuic
 ```
@@ -24,6 +32,12 @@ systemctl start tuic
 systemctl status tuic
 ```
 
+- 下载 [TUIC](https://github.com/EAimTY/tuic/releases)
+- 程序 `/root/tuic`
+- 配置 `/root/tuic_config.json`
+- 证书 `/root/fullchain.cer`
+- 私钥 `/root/private.key`
+- systemctl文件 `/etc/systemd/system/tuic.service`
 - 查看日志 `journalctl -u tuic --output cat -e`
 - 实时日志 `journalctl -u tuic --output cat -f`
 

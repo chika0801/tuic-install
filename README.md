@@ -48,8 +48,8 @@ systemctl status tuic
 
 下载Windows客户端程序[tuic-client-0.8.4-x86_64-windows-msvc.exe](https://github.com/EAimTY/tuic/releases/download/0.8.4/tuic-client-0.8.4-x86_64-windows-msvc.exe)，重命令为`tuic.exe`，复制到v2rayN文件夹。
 
-下载客户端配置[config_client.json](https://github.com/chika0801/tuic-install/blob/main/config_client.json)，修改`chika.example.com`为你的证书包含的域名，修改`1.1.1.1`为你的VPS IP。
+下载客户端配置[config_client.json](https://github.com/chika0801/tuic-install/blob/main/config_client.json)，修改`chika.example.com`为证书中包含的域名，修改`1.1.1.1`为VPS的IP。
 
-小技巧：只要证书在有效期内，证书包含的域名可不用解析到你的VPS IP。`即一份有效的证书，同时在N个VPS上使用`。
+小技巧：只要证书在有效期内，证书中包含的域名可不用解析到VPS的IP。`即一份证书，在多个VPS上使用`。
 
 ![2](https://user-images.githubusercontent.com/88967758/195763590-f035f90f-f228-4022-b318-770791c63b92.jpg)

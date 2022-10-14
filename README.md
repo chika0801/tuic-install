@@ -48,4 +48,4 @@ systemctl status tuic
 
 小技巧：只要证书在有效期内，证书包含的域名可不用解析到你的VPS IP。`即一份有效的证书，同时在N个VPS上使用`。
 
-![tuic](https://user-images.githubusercontent.com/88967758/195762523-2d71d5f5-f080-4546-813f-a0593e669632.jpg)
+![2](https://user-images.githubusercontent.com/88967758/195763590-f035f90f-f228-4022-b318-770791c63b92.jpg)

@@ -48,15 +48,7 @@ systemctl status tuic
 
 使用小技巧：只要证书在有效期内，证书包含的域名可不用解析到你的VPS IP。即一份有效的证书，同时在N个VPS上使用。
 
-<details><summary>点击查看详细步骤</summary> 
-
-![1](https://user-images.githubusercontent.com/88967758/192557055-a91fb74f-0050-4a05-831c-ca795886b8c9.jpg)
-
-![2](https://user-images.githubusercontent.com/88967758/192556695-3b62d99a-8dee-46b8-b39a-0f13888e14fc.jpg)
-
-![3](https://user-images.githubusercontent.com/88967758/192556731-b13c11cd-2bda-4f38-90c5-ecac77c27eb9.jpg)
-
-</details>
+![tuic](https://user-images.githubusercontent.com/88967758/195762523-2d71d5f5-f080-4546-813f-a0593e669632.jpg)
 
 ## SagerNet配置指南
 

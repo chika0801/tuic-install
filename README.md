@@ -42,6 +42,10 @@ systemctl status tuic
 
 ## v2rayN配置指南
 
+下载Windows客户端程序[tuic-client-0.8.4-x86_64-windows-msvc.exe](https://github.com/EAimTY/tuic/releases/download/0.8.4/tuic-client-0.8.4-x86_64-windows-msvc.exe)，重命令为`tuic.exe`。
+
+下载客户端配置[config_client.json](https://github.com/chika0801/tuic-install/blob/main/config_client.json)，修改`chika.example.com`为你的证书中包含的域名，修改`127.0.0.1`为你的VPS的IP。
+
 <details><summary>点击查看详细步骤</summary> 
 
 ![1](https://user-images.githubusercontent.com/88967758/192557055-a91fb74f-0050-4a05-831c-ca795886b8c9.jpg)

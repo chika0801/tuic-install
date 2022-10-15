@@ -96,14 +96,14 @@ TUIC           244Mbps
 ```
 
 ```
-东京（NTT回程 1核 2G 64G SSD 10Gbps带宽）
+东京（NTT回程 1核 2G 15G SSD 10Gbps带宽）
 Trojan-TCP-TLS 311Mbps
 hysteria       459Mbps（客户端配置最大下载速度500Mbps）
 TUIC           390Mbps
 ```
 
 ```
-东京（Azure回程 1核 1G 15G SSD 10Gbps带宽）
+东京（Azure回程 1核 1G 64G SSD 10Gbps带宽）
 Trojan-TCP-TLS 644Mbps
 hysteria       667Mbps（客户端配置最大下载速度700Mbps）
 TUIC           564Mbps
@@ -165,6 +165,13 @@ TUIC            60000Kbps
 Trojan-TCP-TLS  40000Kbps
 hysteria       180000Kbps
 TUIC            40000Kbps
+```
+
+```
+东京（Azure）
+Trojan-TCP-TLS 220000Kbps
+hysteria       200000Kbps
+TUIC           100000Kbps
 ```
 
 ```

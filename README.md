@@ -58,7 +58,7 @@ systemctl status tuic
 
 测速时间12:00-13:00
 
-使用[speedtest.net](https://www.speedtest.net)网页版，多线程，以结束时显示的值为结果，测3次，取平均值。（香港测试点ID 22126，圣何塞测试点ID 49365）
+使用[speedtest.net](https://www.speedtest.net)网页版，多线程，以结束时显示的值为结果，测3次，取平均值。（香港测试点ID 22126，圣何塞测试点ID 49365，大阪测试点ID 21569）
 
 - 香港（CMI回程 1核 1G 15G SSD 500Mbps带宽）
   - Trojan-TCP-TLS 461Mbps

@@ -63,15 +63,15 @@ systemctl status tuic
 ```
 香港（CMI回程 1核 1G 15G SSD 500Mbps带宽）
 Trojan-TCP-TLS 461Mbps
-hysteria 486Mbps（客户端配置最大下载速度500Mbps）
-TUIC 354Mbps
+hysteria       486Mbps（客户端配置最大下载速度500Mbps）
+TUIC           354Mbps
 ```
 
 ```
 圣何塞（9929回程 2核 1G 20G SSD 1Gbps带宽）
 Trojan-TCP-TLS 482Mbps
-hysteria 595Mbps（客户端配置最大下载速度650Mbps）
-TUIC 262Mbps
+hysteria       595Mbps（客户端配置最大下载速度650Mbps）
+TUIC           262Mbps
 ```
 
 ```

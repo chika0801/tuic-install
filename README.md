@@ -85,6 +85,11 @@ systemctl status tuic
   - hysteria 111Mbps（客户端配置最大下载速度300Mbps）
   - TUIC 244Mbps
 
+- 东京（NTT回程 1核 2G 15G SSD 10Gbps带宽）
+  - Trojan-TCP-TLS 311Mbps
+  - hysteria 459Mbps（客户端配置最大下载速度500Mbps）
+  - TUIC 390Mbps
+
 - 圣何塞（GTT回程 1核 2G 20G SSD 10Gbps带宽）
   - Trojan-TCP-TLS 113Mbps
   - hysteria 439Mbps（客户端配置最大下载速度500Mbps）

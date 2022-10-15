@@ -80,6 +80,11 @@ systemctl status tuic
   - hysteria 671Mbps（客户端配置最大下载速度800Mbps）
   - TUIC 425Mbps
 
+- 香港（BBTEC回程 2核 8G 40G SSD 10Gbps带宽）
+  - Trojan-TCP-TLS 349Mbps
+  - hysteria 111Mbps（客户端配置最大下载速度300Mbps）
+  - TUIC 244Mbps
+
 - 圣何塞（GTT回程 1核 2G 20G SSD 10Gbps带宽）
   - Trojan-TCP-TLS 113Mbps
   - hysteria 439Mbps（客户端配置最大下载速度500Mbps）

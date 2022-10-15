@@ -118,9 +118,9 @@ systemctl status tuic
   - TUIC 50000Kbps
 
 - 香港（BBTEC）
-  - Trojan-TCP-TLS 110000Kbps
+  - Trojan-TCP-TLS 120000Kbps
   - hysteria 100000Kbps
-  - TUIC 50000Kbps
+  - TUIC 60000Kbps
 
 - 圣何塞（GTT）
   - Trojan-TCP-TLS 10000Kbps

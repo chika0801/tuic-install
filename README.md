@@ -97,32 +97,37 @@ systemctl status tuic
 
 使用[youtube.com](https://www.youtube.com/watch?v=I3o4WW4tD9M)播放4K视频，观看1分30秒，以稳定时的值为结果。
 
-- 香港
+- 香港（CMI）
   - Trojan-TCP-TLS 150000Kbps
   - hysteria 180000Kbps
   - TUIC 70000Kbps
 
-- 圣何塞
+- 圣何塞（9929）
   - Trojan-TCP-TLS 110000Kbps
   - hysteria 180000Kbps
   - TUIC 50000Kbps
 
-- 大阪
+- 大阪（BBTEC）
   - Trojan-TCP-TLS 90000Kbps
   - hysteria 140000Kbps
   - TUIC 80000Kbps
 
-- 东京
+- 东京（IIJ）
   - Trojan-TCP-TLS 90000Kbps
   - hysteria 160000Kbps
   - TUIC 50000Kbps
 
-- 圣何塞
+- 香港（BBTEC）
+  - Trojan-TCP-TLS 110000Kbps
+  - hysteria 100000Kbps
+  - TUIC 50000Kbps
+
+- 圣何塞（GTT）
   - Trojan-TCP-TLS 10000Kbps
   - hysteria 90000Kbps
   - TUIC 40000Kbps
 
-- 堪萨斯城
+- 堪萨斯城（Telia）
   - Trojan-TCP-TLS 20000Kbps
   - hysteria 60000Kbps
   - TUIC 30000Kbps

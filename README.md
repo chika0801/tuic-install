@@ -78,7 +78,7 @@ TUIC 262Mbps
 
 使用[youtube.com](https://www.youtube.com/watch?v=I3o4WW4tD9M)播放4K视频，观看1分30秒，以稳定时的值为结果。
 
-v.ps香港 CMI回程 1核 1G 15G SSD 500Mbps带宽
+香港
 
 Trojan-TCP-TLS 150000Kbps
 
@@ -86,7 +86,7 @@ hysteria 180000Kbps
 
 TUIC 70000Kbps
 
-v.ps圣何塞 9929回程 2核 1G 20G SSD 1Gbps带宽
+圣何塞
 
 Trojan-TCP-TLS 110000Kbps
 

@@ -110,13 +110,6 @@ TUIC           564Mbps
 ```
 
 ```
-东京（Oracle Tata回程 4核 24G 100G SSD 4Gbps带宽）
-Trojan-TCP-TLS 132Mbps
-hysteria       311Mbps（客户端配置最大下载速度350Mbps）
-TUIC           155Mbps
-```
-
-```
 圣何塞（GTT回程 1核 2G 20G SSD 10Gbps带宽）
 Trojan-TCP-TLS 113Mbps
 hysteria       439Mbps（客户端配置最大下载速度500Mbps）
@@ -179,13 +172,6 @@ TUIC            40000Kbps
 Trojan-TCP-TLS 220000Kbps
 hysteria       200000Kbps
 TUIC           100000Kbps
-```
-
-```
-东京（Oracle）
-Trojan-TCP-TLS  10000Kbps
-hysteria        40000Kbps
-TUIC            10000Kbps
 ```
 
 ```

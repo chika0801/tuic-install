@@ -53,3 +53,27 @@ systemctl status tuic
 小技巧：只要证书在有效期内，证书中包含的域名可不用解析到VPS的IP。`即一份证书，在多个VPS上使用`。
 
 ![2](https://user-images.githubusercontent.com/88967758/195763590-f035f90f-f228-4022-b318-770791c63b92.jpg)
+
+## 测速对比
+
+使用speedtest.net网页版，多线程，以结束时显示的值为结果，测3次，取平均值
+
+v.ps香港 CMI回程 1核 1G 15G SSD 500Mbps带宽 测试时间中午12点
+
+Trojan-TCP-TLS 461Mbps
+
+hysteria(客户端配置下行500Mbps) 486Mbps
+
+TUIC 354Mbps
+
+v.ps圣何塞 9929回程 2核 1G 20G SSD 1T流量 1Gbps带宽
+
+Trojan-TCP-TLS 482Mbps
+
+hysteria(客户端配置下行650Mbps) 595Mbps
+
+TUIC 262Mbps
+
+使用youtube.com播放[4K视频](https://www.youtube.com/watch?v=I3o4WW4tD9M)
+
+

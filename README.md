@@ -62,32 +62,32 @@ systemctl status tuic
 
 - 香港（CMI回程 1核 1G 15G SSD 500Mbps带宽）
   - Trojan-TCP-TLS 461Mbps
-  - hysteria 486Mbps（客户端配置下行500Mbps）
+  - hysteria 486Mbps（客户端配置最大下载速度500Mbps）
   - TUIC 354Mbps
 
 - 圣何塞（9929回程 2核 1G 20G SSD 1Gbps带宽）
   - Trojan-TCP-TLS 482Mbps
-  - hysteria 595Mbps（客户端配置下行650Mbps）
+  - hysteria 595Mbps（客户端配置最大下载速度650Mbps）
   - TUIC 262Mbps
 
 - 大阪（BBTEC回程 1核 512M 10G SSD 2.5Gbps带宽）
   - Trojan-TCP-TLS 505Mbps
-  - hysteria 255Mbps（客户端配置下行300Mbps）
+  - hysteria 255Mbps（客户端配置最大下载速度300Mbps）
   - TUIC 570Mbps
 
 - 东京（IIJ回程 2核 2.5G 50G SSD 1Gbps带宽）
   - Trojan-TCP-TLS 707Mbps
-  - hysteria 671Mbps（客户端配置下行800Mbps）
+  - hysteria 671Mbps（客户端配置最大下载速度800Mbps）
   - TUIC 425Mbps
 
 - 圣何塞（GTT回程 1核 2G 20G SSD 10Gbps带宽）
   - Trojan-TCP-TLS 113Mbps
-  - hysteria 439Mbps（客户端配置下行500Mbps）
+  - hysteria 439Mbps（客户端配置最大下载速度500Mbps）
   - TUIC 210Mbps
 
 - 堪萨斯城（Telia回程 1核 2G 20G SSD 10Gbps带宽）
   - Trojan-TCP-TLS 116Mbps
-  - hysteria 224Mbps（客户端配置下行300Mbps）
+  - hysteria 224Mbps（客户端配置最大下载速度300Mbps）
   - TUIC 152Mbps
 
 使用[youtube.com](https://www.youtube.com/watch?v=I3o4WW4tD9M)播放4K视频，观看1分30秒，以稳定时的值为结果。

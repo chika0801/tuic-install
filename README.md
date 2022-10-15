@@ -182,6 +182,13 @@ TUIC           100000Kbps
 ```
 
 ```
+东京（Oracle）
+Trojan-TCP-TLS  10000Kbps
+hysteria        40000Kbps
+TUIC            10000Kbps
+```
+
+```
 圣何塞（GTT）
 Trojan-TCP-TLS  10000Kbps
 hysteria        90000Kbps

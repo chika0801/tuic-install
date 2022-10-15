@@ -120,7 +120,7 @@ systemctl status tuic
 - 堪萨斯城
   - Trojan-TCP-TLS 20000Kbps
   - hysteria 60000Kbps
-  - TUIC 40000Kbps
+  - TUIC 30000Kbps
 
 ## 选择建议
 

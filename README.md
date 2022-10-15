@@ -60,45 +60,61 @@ systemctl status tuic
 
 使用[speedtest.net](https://www.speedtest.net)网页版，多线程，以结束时显示的值为结果，测3次，取平均值。（香港服务器ID 22126，圣何塞服务器ID 49365，大阪服务器ID 21569，东京服务器ID 21569，堪萨斯城服务器ID 45852）
 
-- 香港（CMI回程 1核 1G 15G SSD 500Mbps带宽）
-  - Trojan-TCP-TLS 461Mbps
-  - hysteria 486Mbps（客户端配置最大下载速度500Mbps）
-  - TUIC 354Mbps
+```
+香港（CMI回程 1核 1G 15G SSD 500Mbps带宽）
+Trojan-TCP-TLS 461Mbps
+hysteria 486Mbps（客户端配置最大下载速度500Mbps）
+TUIC 354Mbps
+```
 
-- 圣何塞（9929回程 2核 1G 20G SSD 1Gbps带宽）
-  - Trojan-TCP-TLS 482Mbps
-  - hysteria 595Mbps（客户端配置最大下载速度650Mbps）
-  - TUIC 262Mbps
+```
+圣何塞（9929回程 2核 1G 20G SSD 1Gbps带宽）
+Trojan-TCP-TLS 482Mbps
+hysteria 595Mbps（客户端配置最大下载速度650Mbps）
+TUIC 262Mbps
+```
 
-- 大阪（BBTEC回程 1核 512M 10G SSD 2.5Gbps带宽）
-  - Trojan-TCP-TLS 505Mbps
-  - hysteria       255Mbps（客户端配置最大下载速度300Mbps）
-  - TUIC           570Mbps
+```
+大阪（BBTEC回程 1核 512M 10G SSD 2.5Gbps带宽）
+Trojan-TCP-TLS 505Mbps
+hysteria       255Mbps（客户端配置最大下载速度300Mbps）
+TUIC           570Mbps
+```
 
-- 东京（IIJ回程 2核 2.5G 50G SSD 1Gbps带宽）
-  - Trojan-TCP-TLS 707Mbps
-  - hysteria       671Mbps（客户端配置最大下载速度800Mbps）
-  - TUIC           425Mbps
+```
+东京（IIJ回程 2核 2.5G 50G SSD 1Gbps带宽）
+Trojan-TCP-TLS 707Mbps
+hysteria       671Mbps（客户端配置最大下载速度800Mbps）
+TUIC           425Mbps
+```
 
-- 香港（BBTEC回程 2核 8G 40G SSD 10Gbps带宽）
-  - Trojan-TCP-TLS 349Mbps
-  - hysteria       111Mbps（客户端配置最大下载速度300Mbps）
-  - TUIC           244Mbps
+```
+香港（BBTEC回程 2核 8G 40G SSD 10Gbps带宽）
+Trojan-TCP-TLS 349Mbps
+hysteria       111Mbps（客户端配置最大下载速度300Mbps）
+TUIC           244Mbps
+```
 
-- 东京（NTT回程 1核 2G 15G SSD 10Gbps带宽）
-  - Trojan-TCP-TLS 311Mbps
-  - hysteria       459Mbps（客户端配置最大下载速度500Mbps）
-  - TUIC           390Mbps
+```
+东京（NTT回程 1核 2G 15G SSD 10Gbps带宽）
+Trojan-TCP-TLS 311Mbps
+hysteria       459Mbps（客户端配置最大下载速度500Mbps）
+TUIC           390Mbps
+```
 
-- 圣何塞（GTT回程 1核 2G 20G SSD 10Gbps带宽）
-  - Trojan-TCP-TLS 113Mbps
-  - hysteria       439Mbps（客户端配置最大下载速度500Mbps）
-  - TUIC           210Mbps
+```
+圣何塞（GTT回程 1核 2G 20G SSD 10Gbps带宽）
+Trojan-TCP-TLS 113Mbps
+hysteria       439Mbps（客户端配置最大下载速度500Mbps）
+TUIC           210Mbps
+```
 
-- 堪萨斯城（Telia回程 1核 2G 20G SSD 10Gbps带宽）
-  - Trojan-TCP-TLS 116Mbps
-  - hysteria       224Mbps（客户端配置最大下载速度300Mbps）
-  - TUIC           152Mbps
+```
+堪萨斯城（Telia回程 1核 2G 20G SSD 10Gbps带宽）
+Trojan-TCP-TLS 116Mbps
+hysteria       224Mbps（客户端配置最大下载速度300Mbps）
+TUIC           152Mbps
+```
 
 使用[youtube.com](https://www.youtube.com/watch?v=I3o4WW4tD9M)播放4K视频，观看1分30秒，以稳定时的值为结果。
 

@@ -56,9 +56,11 @@ systemctl status tuic
 
 ## 测速对比
 
-使用speedtest.net网页版，多线程，以结束时显示的值为结果，测3次，取平均值（香港测试点ID 22126，圣何塞测试点ID 49365）
+使用[speedtest.net](https://www.speedtest.net/)网页版，多线程，以结束时显示的值为结果，测3次，取平均值。（香港测试点ID 22126，圣何塞测试点ID 49365）
 
-v.ps香港 CMI回程 1核 1G 15G SSD 500Mbps带宽 测试时间中午12点
+测试时间中午12点
+
+v.ps香港 CMI回程 1核 1G 15G SSD 500Mbps带宽
 
 Trojan-TCP-TLS 461Mbps
 
@@ -66,7 +68,7 @@ hysteria(客户端配置下行500Mbps) 486Mbps
 
 TUIC 354Mbps
 
-v.ps圣何塞 9929回程 2核 1G 20G SSD 1T流量 1Gbps带宽
+v.ps圣何塞 9929回程 2核 1G 20G SSD 1Gbps带宽
 
 Trojan-TCP-TLS 482Mbps
 

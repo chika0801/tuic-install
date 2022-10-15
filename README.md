@@ -56,7 +56,7 @@ systemctl status tuic
 
 ## 测速对比
 
-测速时间12:00-13:00，Windows 11，Chrome -> Proxy SwitchyOmega(HTTP) -> v2rayN -> VPS
+Windows 11，Chrome -> Proxy SwitchyOmega(HTTP) -> v2rayN -> VPS
 
 使用[speedtest.net](https://www.speedtest.net)网页版，多线程，以结束时显示的值为结果，测3次，取平均值。（香港测试点ID 22126，圣何塞测试点ID 49365，大阪测试点ID 21569，东京测试点ID 21569）
 
@@ -80,6 +80,11 @@ systemctl status tuic
   - hysteria 671Mbps（客户端配置下行800Mbps）
   - TUIC 425Mbps
 
+- 圣何塞（GTT回程 1核 2G 20G SSD 10Gbps带宽）
+  - Trojan-TCP-TLS 113Mbps
+  - hysteria 439Mbps（客户端配置下行500Mbps）
+  - TUIC 210Mbps
+
 使用[youtube.com](https://www.youtube.com/watch?v=I3o4WW4tD9M)播放4K视频，观看1分30秒，以稳定时的值为结果。
 
 - 香港
@@ -101,3 +106,8 @@ systemctl status tuic
   - Trojan-TCP-TLS 90000Kbps
   - hysteria 160000Kbps
   - TUIC 50000Kbps
+
+- 圣何塞
+  - Trojan-TCP-TLS 10000Kbps
+  - hysteria 90000Kbps
+  - TUIC 40000Kbps

@@ -127,6 +127,11 @@ systemctl status tuic
   - hysteria 100000Kbps
   - TUIC 60000Kbps
 
+- 东京（NTT）
+  - Trojan-TCP-TLS 90000Kbps
+  - hysteria 180000Kbps
+  - TUIC 40000Kbps
+
 - 圣何塞（GTT）
   - Trojan-TCP-TLS 10000Kbps
   - hysteria 90000Kbps

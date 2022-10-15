@@ -104,43 +104,43 @@ systemctl status tuic
 
 - 香港（CMI）
   - Trojan-TCP-TLS 150000Kbps
-  - hysteria 180000Kbps
-  - TUIC 70000Kbps
+  - hysteria       180000Kbps
+  - TUIC            70000Kbps
 
 - 圣何塞（9929）
   - Trojan-TCP-TLS 110000Kbps
-  - hysteria 180000Kbps
-  - TUIC 50000Kbps
+  - hysteria       180000Kbps
+  - TUIC            50000Kbps
 
 - 大阪（BBTEC）
-  - Trojan-TCP-TLS 90000Kbps
-  - hysteria 140000Kbps
-  - TUIC 80000Kbps
+  - Trojan-TCP-TLS  90000Kbps
+  - hysteria       140000Kbps
+  - TUIC            80000Kbps
 
 - 东京（IIJ）
-  - Trojan-TCP-TLS 90000Kbps
-  - hysteria 160000Kbps
-  - TUIC 50000Kbps
+  - Trojan-TCP-TLS  90000Kbps
+  - hysteria       160000Kbps
+  - TUIC            50000Kbps
 
 - 香港（BBTEC）
   - Trojan-TCP-TLS 120000Kbps
-  - hysteria 100000Kbps
-  - TUIC 60000Kbps
+  - hysteria       100000Kbps
+  - TUIC            60000Kbps
 
 - 东京（NTT）
-  - Trojan-TCP-TLS 40000Kbps
-  - hysteria 180000Kbps
-  - TUIC 40000Kbps
+  - Trojan-TCP-TLS  40000Kbps
+  - hysteria       180000Kbps
+  - TUIC            40000Kbps
 
 - 圣何塞（GTT）
-  - Trojan-TCP-TLS 10000Kbps
-  - hysteria 90000Kbps
-  - TUIC 40000Kbps
+  - Trojan-TCP-TLS  10000Kbps
+  - hysteria        90000Kbps
+  - TUIC            40000Kbps
 
 - 堪萨斯城（Telia）
-  - Trojan-TCP-TLS 20000Kbps
-  - hysteria 60000Kbps
-  - TUIC 30000Kbps
+  - Trojan-TCP-TLS  20000Kbps
+  - hysteria        60000Kbps
+  - TUIC            30000Kbps
 
 ## 选择建议
 

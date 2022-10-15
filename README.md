@@ -70,6 +70,11 @@ systemctl status tuic
   - hysteria 595Mbps（客户端配置下行650Mbps）
   - TUIC 262Mbps
 
+- 大阪（BBTEC回程 1核 512M 10G SSD 2.5Gbps带宽）
+  - Trojan-TCP-TLS 505Mbps
+  - hysteria 255Mbps（客户端配置下行300Mbps）
+  - TUIC 570Mbps
+
 使用[youtube.com](https://www.youtube.com/watch?v=I3o4WW4tD9M)播放4K视频，观看1分30秒，以稳定时的值为结果。
 
 - 香港

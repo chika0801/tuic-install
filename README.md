@@ -113,6 +113,7 @@ Windows 11，Chrome -> Proxy SwitchyOmega(HTTP) -> v2rayN -> VPS
   - TUIC 40000Kbps
 
 ## 选择建议
+
 - 回程线路好，CPU性能好 TUIC = hysteria = Trojan-TCP-TLS
 - 回程线路好，CPU性能差 TUIC > Trojan-TCP-TLS > hysteria
 - 回程线路差，CPU性能好/差 hysteria > TUIC > Trojan-TCP-TLS

@@ -123,7 +123,7 @@ hysteria       224Mbps（客户端配置最大下载速度300Mbps）
 TUIC           152Mbps
 ```
 
-使用[youtube.com](https://www.youtube.com/watch?v=I3o4WW4tD9M)播放4K视频，观看1分30秒，以稳定时的值为结果。
+使用[youtube.com](https://www.youtube.com/watch?v=I3o4WW4tD9M)播放4K视频，观看90秒，以稳定时的值为结果。
 
 ```
 香港（CMI）

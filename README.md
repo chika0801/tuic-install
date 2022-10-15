@@ -54,7 +54,7 @@ systemctl status tuic
 
 ![2](https://user-images.githubusercontent.com/88967758/195763590-f035f90f-f228-4022-b318-770791c63b92.jpg)
 
-## 测速对比
+## 测速结果
 
 Windows 11，Chrome -> Proxy SwitchyOmega(HTTP) -> v2rayN -> VPS
 
@@ -112,7 +112,7 @@ Windows 11，Chrome -> Proxy SwitchyOmega(HTTP) -> v2rayN -> VPS
   - hysteria 90000Kbps
   - TUIC 40000Kbps
 
-## 推荐选择
-- 回程线路好，CPU性能强 TUIC = hysteria = Trojan-TCP-TLS
-- 回程线路好，CPU性能弱 TUIC > hysteria = Trojan-TCP-TLS
-- 回程线路差 hysteria > TUIC > Trojan-TCP-TLS
+## 选择建议
+- 回程线路好，CPU性能好 TUIC = hysteria = Trojan-TCP-TLS
+- 回程线路好，CPU性能差 TUIC > Trojan-TCP-TLS > hysteria
+- 回程线路差，CPU性能好/差 hysteria > TUIC > Trojan-TCP-TLS

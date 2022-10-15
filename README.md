@@ -56,7 +56,7 @@ systemctl status tuic
 
 ## 测速对比
 
-测速时间中午
+测速时间12:00-13:00
 
 使用[speedtest.net](https://www.speedtest.net)网页版，多线程，以结束时显示的值为结果，测3次，取平均值。（香港测试点ID 22126，圣何塞测试点ID 49365）
 

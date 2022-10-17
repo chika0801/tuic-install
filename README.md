@@ -64,7 +64,7 @@ systemctl status tuic
 东京（BBTEC回程 1核 1G 15G SSD 500Mbps带宽）
 Trojan-TCP-TLS 479Mbps
 hysteria       485Mbps（客户端配置最大下载速度500Mbps）
-TUIC           425Mbps
+TUIC           366Mbps
 ```
 
 ```
@@ -136,7 +136,7 @@ TUIC           152Mbps
 东京（BBTEC）
 Trojan-TCP-TLS 210000Kbps
 hysteria       210000Kbps
-TUIC            50000Kbps
+TUIC           100000Kbps
 ```
 
 ```

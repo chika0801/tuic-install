@@ -1,16 +1,19 @@
 ## [TUIC](https://github.com/EAimTY/tuic)安装指南
 
 1.下载程序
+
 ```
 curl -Lo /root/tuic https://github.com/EAimTY/tuic/releases/download/0.8.4/tuic-server-0.8.4-x86_64-linux-musl && chmod +x /root/tuic
 ```
 
 2.下载配置
+
 ```
 curl -Lo /root/tuic_config.json https://raw.githubusercontent.com/chika0801/tuic-install/main/config_server.json
 ```
 
 3.下载systemctl配置文件
+
 ```
 curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chika0801/tuic-install/main/tuic.service
 ```
@@ -24,6 +27,7 @@ curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chik
 [什么是 SSL 证书](https://www.kaspersky.com.cn/resource-center/definitions/what-is-a-ssl-certificate)
 
 5.启动程序
+
 ```
 systemctl daemon-reload && systemctl enable tuic
 ```
@@ -52,5 +56,5 @@ systemctl status tuic
 
 小技巧：只要证书在有效期内，证书中包含的域名不用解析到VPS的IP。一份证书，在多个VPS上使用。
 
-![2](https://user-images.githubusercontent.com/88967758/195763590-f035f90f-f228-4022-b318-770791c63b92.jpg)
+![1](https://user-images.githubusercontent.com/88967758/195763590-f035f90f-f228-4022-b318-770791c63b92.jpg)
 

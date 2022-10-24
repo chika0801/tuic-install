@@ -12,7 +12,7 @@ curl -Lo /root/tuic https://github.com/EAimTY/tuic/releases/download/0.8.4/tuic-
 curl -Lo /root/tuic_config.json https://raw.githubusercontent.com/chika0801/tuic-install/main/config_server.json
 ```
 
-3.下载systemctl配置文件
+3.下载systemctl配置
 
 ```
 curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chika0801/tuic-install/main/tuic.service
@@ -44,7 +44,7 @@ systemctl status tuic
 - 配置 `/root/tuic_config.json`
 - 证书 `/root/fullchain.cer`
 - 私钥 `/root/private.key`
-- systemctl配置文件 `/etc/systemd/system/tuic.service`
+- systemctl配置 `/etc/systemd/system/tuic.service`
 - 查看日志 `journalctl -u tuic --output cat -e`
 - 实时日志 `journalctl -u tuic --output cat -f`
 

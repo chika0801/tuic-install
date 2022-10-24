@@ -3,6 +3,7 @@
     "token": ["chika"],
     "certificate": "/root/fullchain.cer",
     "private_key": "/root/private.key",
+    "ip": "::",
     "congestion_controller": "bbr",
     "alpn": ["h3"]
 }

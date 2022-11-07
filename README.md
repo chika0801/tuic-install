@@ -37,13 +37,15 @@ systemctl start tuic
 systemctl status tuic
 ```
 
-- 程序 `/root/tuic`
-- 配置 `/root/tuic_config.json`
-- 证书 `/root/fullchain.cer`
-- 私钥 `/root/private.key`
-- systemctl配置 `/etc/systemd/system/tuic.service`
-- 查看日志 `journalctl -u tuic --output cat -e`
-- 实时日志 `journalctl -u tuic --output cat -f`
+| 项目 | |
+| :--- | :--- |
+| 程序 | /root/tuic |
+| 配置 | /root/tuic_config.json |
+| 证书 | /root/fullchain.cer |
+| 私钥 | /root/private.key |
+| systemctl配置 | /etc/systemd/system/tuic.service |
+| 查看日志 | journalctl -u tuic --output cat -e |
+| 实时日志 | journalctl -u tuic --output cat -f |
 
 ## v2rayN配置指南
 

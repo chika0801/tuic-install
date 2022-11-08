@@ -1,4 +1,4 @@
-## [TUIC](https://github.com/EAimTY/tuic)安装指南
+## [TUIC](https://github.com/EAimTY/tuic)安装指南(Quick Installation Guide)
 
 1. 下载程序(Download TUIC)
 

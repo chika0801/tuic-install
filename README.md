@@ -35,7 +35,7 @@ systemctl status tuic
 
 | 项目 | |
 | :--- | :--- |
-| 程序 | /root/tuic |
+| 程序(TUIC file) | /root/tuic |
 | 配置(config) | /root/tuic_config.json |
 | 证书(certificate) | /root/fullchain.cer |
 | 私钥(private key) | /root/private.key |

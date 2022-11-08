@@ -2,6 +2,7 @@
 
 1. 下载程序(Download TUIC)
 
+linux-amd64
 ```
 curl -Lo /root/tuic https://github.com/EAimTY/tuic/releases/download/0.8.4/tuic-server-0.8.4-x86_64-linux-musl && chmod +x /root/tuic
 ```

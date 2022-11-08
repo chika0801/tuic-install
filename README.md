@@ -26,11 +26,7 @@ curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chik
 5. 启动程序
 
 ```
-systemctl daemon-reload && systemctl enable tuic
-```
-
-```
-systemctl start tuic
+systemctl daemon-reload && systemctl enable --now tuic
 ```
 
 ```

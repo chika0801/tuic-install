@@ -1,6 +1,4 @@
 [Unit]
-Description=TUIC, TUIC's goal is to minimize the handshake latency as much as possible.
-Documentation=https://github.com/EAimTY/tuic
 After=network.target
 
 [Service]

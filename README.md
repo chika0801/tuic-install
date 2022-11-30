@@ -1,6 +1,6 @@
 ## [TUIC](https://github.com/EAimTY/tuic)安装指南
 
-1. 下载程序(linux-amd64)
+1. 下载程序（linux-amd64）
 
 ```
 curl -Lo /root/tuic https://github.com/EAimTY/tuic/releases/download/0.8.4/tuic-server-0.8.4-x86_64-linux-musl && chmod +x /root/tuic

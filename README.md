@@ -66,7 +66,6 @@ systemctl status tuic
 | 证书（链） | 留空 |
 | UDP Relay Mode | NATIVE |
 | Congestion Controller | BBR |
-| 最大下行（Mbps） | 100 |
 | Disable SNI |不勾 |
 | 服务器名称指示 | 证书中包含的域名 |
 | Reduce RTT | 勾上 |

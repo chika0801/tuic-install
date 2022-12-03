@@ -51,3 +51,25 @@ systemctl status tuic
 ![1](https://user-images.githubusercontent.com/88967758/195763590-f035f90f-f228-4022-b318-770791c63b92.jpg)
 
 小技巧：只要证书在有效期内，证书中包含的域名不用解析到VPS的IP。一份证书，在多个VPS上使用。
+
+## SagerNet配置指南
+
+<details><summary>点击查看</summary>
+
+| 选项 | 值 |
+| :--- | :--- |
+| 配置名称 |  |
+| 服务器 | VPS的IP |
+| 服务器端口 | 16385 |
+| Token | chika |
+| 应用层协议协商 | h3 |
+| 证书（链） | 留空 |
+| UDP Relay Mode | NATIVE |
+| Congestion Controller | BBR |
+| 最大下行（Mbps） | 100 |
+| Disable SNI |不勾 |
+| 服务器名称指示 | 证书中包含的域名 |
+| Reduce RTT | 勾上 |
+| MTU | 1146 |
+
+</details>

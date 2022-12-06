@@ -68,7 +68,7 @@ systemctl status tuic
 | Congestion Controller | BBR |
 | Disable SNI |不勾 |
 | 服务器名称指示 | 证书中包含的域名 |
-| Reduce RTT | 勾上 |
+| Reduce RTT | 不勾 |
 | MTU | 1146 |
 
 </details>

@@ -1,4 +1,4 @@
-## [TUIC](https://github.com/EAimTY/tuic)安装指南
+## [TUIC](https://github.com/EAimTY/tuic) 安装指南
 
 1. 下载程序（linux-amd64）
 
@@ -40,7 +40,7 @@ systemctl status tuic
 | 查看日志 | journalctl -u tuic --output cat -e |
 | 实时日志 | journalctl -u tuic --output cat -f |
 
-## v2rayN配置指南
+## v2rayN 5.x 配置指南
 
 1. 下载Windows客户端程序[tuic-client-0.8.4-x86_64-windows-msvc.exe](https://github.com/EAimTY/tuic/releases/download/0.8.4/tuic-client-0.8.4-x86_64-windows-msvc.exe)，重命令为`tuic.exe`，复制到v2rayN文件夹。
 
@@ -52,7 +52,7 @@ systemctl status tuic
 
 小技巧：只要证书在有效期内，证书中包含的域名不用解析到VPS的IP。一份证书，在多个VPS上使用。
 
-## SagerNet配置指南
+## SagerNet 配置指南
 
 <details><summary>点击查看</summary>
 

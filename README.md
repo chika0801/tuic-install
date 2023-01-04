@@ -1,4 +1,4 @@
-## [tuic](https://github.com/EAimTY/tuic) 安装指南
+## [TUIC](https://github.com/EAimTY/tuic) 安装指南
 
 1. 下载程序（linux-amd64）
 
@@ -70,5 +70,25 @@ systemctl status tuic
 | 服务器名称指示 | 证书中包含的域名 |
 | Reduce RTT | 勾上 |
 | MTU | 1146 |
+
+</details>
+
+## Shadowrocket 配置指南
+
+<details><summary>点击查看</summary>
+
+| 选项 | 值 |
+| :--- | :--- |
+| 配置名称 |  |
+| 类型 | TUIC |
+| 地址 | VPS的IP |
+| 端口 | 16385 |
+| 密码 | chika |
+| 模式 | bbr |
+| 允许不安全 | 不选 |
+| UDP转发 | 选上 |
+| SNI | 证书中包含的域名 |
+| ALPN | h3 |
+| 备注 | 留空 |
 
 </details>

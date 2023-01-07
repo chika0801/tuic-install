@@ -1,7 +1,7 @@
 {
     "relay": {
         "server": "chika.example.com",
-        "port": 16385,
+        "port": 16386,
         "token": "chika",
         "ip": "10.0.0.1",
         "congestion_controller": "bbr",

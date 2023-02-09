@@ -62,7 +62,6 @@ systemctl status tuic
 
 | 选项 | 值 |
 | :--- | :--- |
-| 配置名称 |  |
 | 服务器 | VPS的IP |
 | 服务器端口 | 16386 |
 | Token | chika |
@@ -83,7 +82,6 @@ systemctl status tuic
 
 | 选项 | 值 |
 | :--- | :--- |
-| 配置名称 |  |
 | 类型 | TUIC |
 | 地址 | VPS的IP |
 | 端口 | 16386 |

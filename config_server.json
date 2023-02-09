@@ -1,8 +1,8 @@
 {
     "port": 16386,
     "token": ["chika"],
-    "certificate": "fullchain.cer",
-    "private_key": "private.key",
+    "certificate": "/root/fullchain.cer",
+    "private_key": "/root/private.key",
     "ip": "::",
     "congestion_controller": "bbr",
     "alpn": ["h3"],

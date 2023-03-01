@@ -37,8 +37,8 @@ systemctl status tuic
 | 程序 | /root/tuic |
 | 配置 | /root/tuic_config.json |
 | 检查 | /root/tuic -c tuic_config.json |
-| 查看日志 | journalctl -u tuic --output cat -e |
-| 实时日志 | journalctl -u tuic --output cat -f |
+| 查看日志 | `journalctl -u tuic --output cat -e` |
+| 实时日志 | `journalctl -u tuic --output cat -f` |
 
 ## v2rayN 5.x 配置指南
 

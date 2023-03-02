@@ -1,6 +1,6 @@
 ## [TUIC](https://github.com/EAimTY/tuic) 安装指南
 
-1. 下载程序（linux-amd64）
+1. 下载程序（**linux-amd64**）
 
 ```
 curl -Lo /root/tuic https://github.com/EAimTY/tuic/releases/download/0.8.4/tuic-server-0.8.4-x86_64-linux-musl && chmod +x /root/tuic
@@ -20,7 +20,7 @@ curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chik
 
 4. 上传证书和私钥
 
-- 将证书文件改名为`fullchain.cer`，将私钥文件改名为`private.key`，将它们上传到`/root`目录。
+- 将证书文件改名为 **fullchain.cer**，将私钥文件改名为 **private.key**，将它们上传到 **/root** 目录。
 
 5. 启动程序
 
@@ -30,8 +30,8 @@ curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chik
 
 | 项目 | |
 | :--- | :--- |
-| 程序 | /root/tuic |
-| 配置 | /root/tuic_config.json |
+| 程序 | **/root/tuic** |
+| 配置 | **/root/tuic_config.json** |
 | 检查 | `/root/tuic -c tuic_config.json` |
 | 查看日志 | `journalctl -u tuic --output cat -e` |
 | 实时日志 | `journalctl -u tuic --output cat -f` |

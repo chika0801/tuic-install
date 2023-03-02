@@ -54,7 +54,7 @@ curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chik
 
 ## SagerNet 配置指南
 
-<details><summary>点击查看</summary>
+<details><summary>点击查看</summary><br>
 
 | 选项 | 值 |
 | :--- | :--- |
@@ -74,7 +74,7 @@ curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chik
 
 ## Shadowrocket 配置指南
 
-<details><summary>点击查看</summary>
+<details><summary>点击查看</summary><br>
 
 | 选项 | 值 |
 | :--- | :--- |

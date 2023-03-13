@@ -36,7 +36,7 @@ curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chik
 | 查看日志 | `journalctl -u tuic --output cat -e` |
 | 实时日志 | `journalctl -u tuic --output cat -f` |
 
-## v2rayN 5.x 配置指南
+## v2rayN 5.x 配置示例
 
 <details><summary>点击查看</summary>
 
@@ -52,7 +52,7 @@ curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chik
 
 </details>
 
-## SagerNet 配置指南
+## SagerNet 配置示例
 
 <details><summary>点击查看</summary><br>
 
@@ -72,7 +72,7 @@ curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chik
 
 </details>
 
-## Shadowrocket 配置指南
+## Shadowrocket 配置示例
 
 <details><summary>点击查看</summary><br>
 

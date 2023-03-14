@@ -87,6 +87,5 @@ curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chik
 | UDP转发 | 选上 |
 | SNI | 证书中包含的域名 |
 | ALPN | h3 |
-| 备注 | 留空 |
 
 </details>

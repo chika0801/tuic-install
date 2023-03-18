@@ -52,26 +52,6 @@ curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chik
 
 </details>
 
-## SagerNet 配置示例
-
-<details><summary>点击查看</summary><br>
-
-| 选项 | 值 |
-| :--- | :--- |
-| 服务器 | VPS的IP |
-| 服务器端口 | 16386 |
-| Token | chika |
-| 应用层协议协商 | h3 |
-| 证书（链） | 留空 |
-| UDP Relay Mode | NATIVE |
-| Congestion Controller | BBR |
-| Disable SNI |不勾 |
-| 服务器名称指示 | 证书中包含的域名 |
-| Reduce RTT | 勾上 |
-| MTU | 1146 |
-
-</details>
-
 ## Shadowrocket 配置示例
 
 <details><summary>点击查看</summary><br>

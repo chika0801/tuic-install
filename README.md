@@ -36,7 +36,7 @@ curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chik
 | 查看日志 | `journalctl -u tuic --output cat -e` |
 | 实时日志 | `journalctl -u tuic --output cat -f` |
 
-## v2rayN 6.X 配置示例
+## v2rayN - V6.X 配置示例
 
 <details><summary>点击查看</summary>
 

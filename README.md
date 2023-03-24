@@ -46,7 +46,7 @@ curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chik
 
 3. 服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 tuic ——> Socks端口 50001
 
-![1](https://user-images.githubusercontent.com/88967758/195763590-f035f90f-f228-4022-b318-770791c63b92.jpg)
+![1](https://user-images.githubusercontent.com/88967758/227561846-0f93ca76-0dce-41d3-9232-bd25a29276cf.png)
 
 小技巧：只要证书在有效期内，证书中包含的域名不用解析到VPS的IP。一份证书，在多个VPS上使用。
 

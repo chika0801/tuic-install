@@ -1,16 +1,13 @@
 {
     "relay": {
-        "server": "chika.example.com",
-        "port": 16386,
-        "token": "chika",
+        "server": "chika.example.com:443",
+        "uuid": "ee48f7be-6ae9-5654-9b61-8466aa8e16bc",
+        "password": "chika",
         "ip": "10.0.0.1",
-        "congestion_controller": "bbr",
-        "alpn": ["h3"],
-        "reduce_rtt": true,
-        "max_udp_relay_packet_size": 1146
+        "congestion_control": "bbr"
     },
     "local": {
-        "port": 50001
+        "server": "127.0.0.1:50001"
     },
-    "log_level": "off"
+    "log_level": "warn"
 }

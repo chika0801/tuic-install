@@ -40,7 +40,7 @@ curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chik
 
 <details><summary>点击查看</summary>
 
-1. 下载Windows客户端程序[tuic-client.](https://github.com/EAimTY/tuic/releases/download/tuic-client-1.0.0-alpha0/tuic-client-1.0.0-alpha0-x86_64-pc-windows-msvc.exe)，重命名为tuic.exe，复制到v2rayN\bin\tuic文件夹。
+1. 下载Windows客户端程序[tuic-client.exe](https://github.com/EAimTY/tuic/releases/download/tuic-client-1.0.0-alpha0/tuic-client-1.0.0-alpha0-x86_64-pc-windows-msvc.exe)，重命名为tuic.exe，复制到v2rayN\bin\tuic文件夹。
 
 2. 下载客户端配置[config_client.json](https://raw.githubusercontent.com/chika0801/tuic-install/main/config_client.json)，修改chika.example.com为证书中包含的域名，修改10.0.0.1为VPS的IP。
 

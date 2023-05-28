@@ -52,7 +52,7 @@ curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chik
 
 </details>
 
-## Shadowrocket 配置示例
+## ~Shadowrocket 配置示例~
 
 <details><summary>点击查看</summary><br>
 

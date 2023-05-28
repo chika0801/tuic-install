@@ -1,6 +1,6 @@
 {
     "server": "[::]:443",
-    "users": { // 推荐访问 xray-uuid.ducksoft.site 生成你的 UUID 和 Key
+    "users": {
         "ee48f7be-6ae9-5654-9b61-8466aa8e16bc": "chika"
     },
     "certificate": "/root/fullchain.cer",

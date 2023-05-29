@@ -51,21 +51,3 @@ curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chik
 小技巧：只要证书在有效期内，证书中包含的域名不用解析到VPS的IP。一份证书，在多个VPS上使用。
 
 </details>
-
-## ~Shadowrocket 配置示例~
-
-<details><summary>点击查看</summary><br>
-
-| 选项 | 值 |
-| :--- | :--- |
-| 类型 | TUIC |
-| 地址 | VPS的IP |
-| 端口 | 16386 |
-| 密码 | chika |
-| 模式 | bbr |
-| 允许不安全 | 不选 |
-| UDP转发 | 选上 |
-| SNI | 证书中包含的域名 |
-| ALPN | h3 |
-
-</details>

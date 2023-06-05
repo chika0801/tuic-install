@@ -25,7 +25,7 @@ curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chik
 5. 启动程序
 
 ```
- systemctl enable --now tuic && sleep 0.2 && systemctl status tuic
+systemctl enable --now tuic && sleep 0.2 && systemctl status tuic
 ```
 
 | 项目 | |

@@ -35,9 +35,7 @@ systemctl enable --now tuic && sleep 0.2 && systemctl status tuic
 | 查看日志 | `journalctl -u tuic --output cat -e` |
 | 实时日志 | `journalctl -u tuic --output cat -f` |
 
-## v2rayN - V6.X 配置示例
-
-<details><summary>点击查看</summary>
+## 由 v2rayN 提供 http/socks5 代理
 
 1. 下载Windows客户端程序[tuic-client.exe](https://github.com/EAimTY/tuic/releases/download/tuic-client-1.0.0-rc0/tuic-client-1.0.0-rc0-x86_64-pc-windows-msvc.exe)，重命名为tuic.exe，复制到v2rayN\bin\tuic文件夹。
 
@@ -49,4 +47,26 @@ systemctl enable --now tuic && sleep 0.2 && systemctl status tuic
 
 小技巧：只要证书在有效期内，证书中包含的域名不用解析到VPS的IP。一份证书，在多个VPS上使用。
 
-</details>
+## 由 sing-box 提供 Tun 模式（透明代理），v2rayN 管理配置
+
+1. sing-box：参考 [sing-box Windows 客户端使用方法](https://github.com/chika0801/sing-box-examples/blob/main/Tun/README.md)，将 [sing-box Windows 客户端配置](https://github.com/chika0801/sing-box-examples/blob/main/Tun/config_client_windows.json) 进行如下修改。
+
+原内容
+```jsonc
+        {
+            "tag": "proxy",
+            // 粘贴你的客户端配置，需要保留 "tag": "proxy",
+        },
+```
+
+替换为
+```jsonc
+        {
+            "type": "socks",
+            "tag": "proxy",
+            "server": "127.0.0.1",
+            "server_port": 10808
+        },
+```
+
+2. v2rayN：参考 由 v2rayN 提供 http/socks5 代理，将 客户端配置 中的 50001 改为 10808。服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 tuic ——> Socks端口 0。

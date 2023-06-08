@@ -43,7 +43,7 @@ systemctl enable --now tuic && sleep 0.2 && systemctl status tuic
 
 1. 下载Windows客户端程序[tuic-client-x86_64-pc-windows-msvc.exe](https://github.com/EAimTY/tuic/releases/download/tuic-client-1.0.0-rc0/tuic-client-1.0.0-rc0-x86_64-pc-windows-msvc.exe)，重命名为tuic.exe，复制到v2rayN\bin\tuic文件夹。
 
-2. 下载客户端配置[config_client.json](https://raw.githubusercontent.com/chika0801/tuic-install/main/config_client.json)，修改chika.example.com为证书中包含的域名，修改10.0.0.1为VPS的IP。
+2. 下载客户端配置[config_client.json](https://github.com/chika0801/tuic-install/blob/main/config_client.json)，修改chika.example.com为证书中包含的域名，修改10.0.0.1为VPS的IP。
 
 3. 服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 tuic ——> Socks端口 50000
 

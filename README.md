@@ -1,4 +1,6 @@
-## [TUIC](https://github.com/EAimTY/tuic) 安装指南
+# [TUIC](https://github.com/EAimTY/tuic) 安装指南
+
+## 服务端
 
 1. 下载程序（**linux-amd64**）
 
@@ -35,19 +37,19 @@ systemctl enable --now tuic && sleep 0.2 && systemctl status tuic
 | 查看日志 | `journalctl -u tuic --output cat -e` |
 | 实时日志 | `journalctl -u tuic --output cat -f` |
 
-## 由 v2rayN 提供 http/socks5 代理
+## 客户端
 
-1. 下载Windows客户端程序[tuic-client.exe](https://github.com/EAimTY/tuic/releases/download/tuic-client-1.0.0-rc0/tuic-client-1.0.0-rc0-x86_64-pc-windows-msvc.exe)，重命名为tuic.exe，复制到v2rayN\bin\tuic文件夹。
+### 由 v2rayN 提供 http/socks5 代理
+
+1. 下载Windows客户端程序[tuic-client-x86_64-pc-windows-msvc.exe](https://github.com/EAimTY/tuic/releases/download/tuic-client-1.0.0-rc0/tuic-client-1.0.0-rc0-x86_64-pc-windows-msvc.exe)，重命名为tuic.exe，复制到v2rayN\bin\tuic文件夹。
 
 2. 下载客户端配置[config_client.json](https://raw.githubusercontent.com/chika0801/tuic-install/main/config_client.json)，修改chika.example.com为证书中包含的域名，修改10.0.0.1为VPS的IP。
 
 3. 服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 tuic ——> Socks端口 50001
 
-![1](https://user-images.githubusercontent.com/88967758/227561846-0f93ca76-0dce-41d3-9232-bd25a29276cf.png)
+![TUIC](https://github.com/chika0801/tuic-install/assets/88967758/4b4ec64d-2de2-4185-8bbc-207cff5071a9)
 
-小技巧：只要证书在有效期内，证书中包含的域名不用解析到VPS的IP。一份证书，在多个VPS上使用。
-
-## 由 sing-box 提供 Tun 模式（透明代理），v2rayN 管理配置
+### 由 sing-box 提供 Tun 模式（透明代理），v2rayN 管理配置
 
 1. sing-box：参考 [sing-box Windows 客户端使用方法](https://github.com/chika0801/sing-box-examples/blob/main/Tun/README.md)，将 [sing-box Windows 客户端配置](https://github.com/chika0801/sing-box-examples/blob/main/Tun/config_client_windows.json) 进行如下修改。
 

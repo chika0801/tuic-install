@@ -7,7 +7,7 @@
         "congestion_control": "bbr"
     },
     "local": {
-        "server": "127.0.0.1:50001"
+        "server": "127.0.0.1:50000"
     },
     "log_level": "warn"
 }

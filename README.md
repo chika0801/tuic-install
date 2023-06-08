@@ -45,9 +45,9 @@ systemctl enable --now tuic && sleep 0.2 && systemctl status tuic
 
 2. 下载客户端配置[config_client.json](https://raw.githubusercontent.com/chika0801/tuic-install/main/config_client.json)，修改chika.example.com为证书中包含的域名，修改10.0.0.1为VPS的IP。
 
-3. 服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 tuic ——> Socks端口 50001
+3. 服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 tuic ——> Socks端口 50000
 
-![TUIC](https://github.com/chika0801/tuic-install/assets/88967758/4b4ec64d-2de2-4185-8bbc-207cff5071a9)
+![TUIC](https://github.com/chika0801/tuic-install/assets/88967758/00bcbfd2-e24d-4187-aeb9-e2afefab219d)
 
 ### 由 sing-box 提供 Tun 模式（透明代理），v2rayN 管理配置
 
@@ -71,4 +71,4 @@ systemctl enable --now tuic && sleep 0.2 && systemctl status tuic
         },
 ```
 
-2. v2rayN：参考 由 v2rayN 提供 http/socks5 代理，将 客户端配置 中的 50001 改为 10808。服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 tuic ——> Socks端口 0。
+2. v2rayN：参考 由 v2rayN 提供 http/socks5 代理，将 客户端配置 中的 50000 改为 10808。服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 tuic ——> Socks端口 0。

@@ -9,5 +9,5 @@
     "local": {
         "server": "127.0.0.1:50000"
     },
-    "log_level": "info"
+    "log_level": "warn"
 }

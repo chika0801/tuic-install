@@ -6,5 +6,5 @@
     "certificate": "/root/fullchain.cer",
     "private_key": "/root/private.key",
     "congestion_control": "bbr",
-    "log_level": "warn"
+    "log_level": "info"
 }

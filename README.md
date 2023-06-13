@@ -2,6 +2,8 @@
 
 ## 服务端
 
+### 安装
+
 1. 下载程序（**linux-amd64**）
 
 ```
@@ -36,6 +38,12 @@ systemctl enable --now tuic && sleep 0.2 && systemctl status tuic
 | 配置 | **/root/tuic_config.json** |
 | 查看日志 | `journalctl -u tuic --output cat -e` |
 | 实时日志 | `journalctl -u tuic --output cat -f` |
+
+### 卸载
+
+```
+systemctl disable --now tuic && rm /root/tuic && rm /root/tuic_config.json && rm /etc/systemd/system/tuic.service
+```
 
 ## 客户端
 

@@ -7,7 +7,7 @@
 1. 下载程序（**linux-amd64**）
 
 ```
-curl -Lo /root/tuic https://github.com/EAimTY/tuic/releases/download/tuic-server-1.0.0/tuic-server-1.0.0-x86_64-unknown-linux-gnu && chmod +x /root/tuic
+curl -Lo /root/tuic https://github.com/EAimTY/tuic/releases/download/tuic-server-1.0.0/tuic-server-1.0.0-x86_64-unknown-linux-gnu && chmod +x /root/tuic && mv -f /root/tuic /usr/local/bin
 ```
 
 2. 下载配置
@@ -29,12 +29,12 @@ curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chik
 5. 启动程序
 
 ```
-systemctl enable --now tuic && sleep 0.2 && systemctl status tuic
+systemctl enable --now tuic
 ```
 
 | 项目 | |
 | :--- | :--- |
-| 程序 | **/root/tuic** |
+| 程序 | **/usr/local/bin/tuic** |
 | 配置 | **/root/tuic_config.json** |
 | 重启 | `systemctl restart tuic` |
 | 状态 | `systemctl status tuic` |
@@ -44,7 +44,8 @@ systemctl enable --now tuic && sleep 0.2 && systemctl status tuic
 ### 卸载
 
 ```
-systemctl disable --now tuic && rm /root/tuic && rm /root/tuic_config.json && rm /etc/systemd/system/tuic.service
+systemctl disable --now tuic
+rm -f /usr/local/bin/tuic /root/tuic_config.json /etc/systemd/system/tuic.service
 ```
 
 ## 客户端

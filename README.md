@@ -45,6 +45,9 @@ systemctl enable --now tuic
 
 ```
 systemctl disable --now tuic
+```
+
+```
 rm -f /usr/local/bin/tuic /root/tuic_config.json /etc/systemd/system/tuic.service
 ```
 

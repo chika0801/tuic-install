@@ -38,8 +38,8 @@ systemctl enable --now tuic
 | 配置 | **/root/tuic_config.json** |
 | 重启 | `systemctl restart tuic` |
 | 状态 | `systemctl status tuic` |
-| 查看日志 | `journalctl -u tuic --output cat -e` |
-| 实时日志 | `journalctl -u tuic --output cat -f` |
+| 查看日志 | `journalctl -u tuic -o cat -e` |
+| 实时日志 | `journalctl -u tuic -o cat -f` |
 
 ### 卸载
 

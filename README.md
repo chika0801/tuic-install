@@ -44,11 +44,7 @@ systemctl enable --now tuic
 ### 卸载
 
 ```
-systemctl disable --now tuic
-```
-
-```
-rm -f /usr/local/bin/tuic /root/tuic_config.json /etc/systemd/system/tuic.service
+systemctl disable --now tuic && rm -f /usr/local/bin/tuic /root/tuic_config.json /etc/systemd/system/tuic.service
 ```
 
 ## 客户端

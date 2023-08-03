@@ -4,7 +4,8 @@
         "uuid": "ee48f7be-6ae9-5654-9b61-8466aa8e16bc",
         "password": "chika",
         "ip": "10.0.0.1",
-        "congestion_control": "bbr"
+        "congestion_control": "bbr",
+        "alpn": ["h3"]
     },
     "local": {
         "server": "127.0.0.1:50000"

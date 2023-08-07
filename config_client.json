@@ -5,6 +5,8 @@
         "password": "chika",
         "ip": "10.0.0.1",
         "congestion_control": "bbr",
+        "send_window": 33554432,
+        "receive_window": 16777216,
         "alpn": ["h3"]
     },
     "local": {

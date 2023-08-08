@@ -49,17 +49,17 @@ systemctl disable --now tuic && rm -f /usr/local/bin/tuic /root/tuic_config.json
 
 ## 客户端
 
-### 由 v2rayN 提供 HTTP SOCKS5 代理
+### 由 v2rayN 提供 HTTP SOCKS5 代理，由 v2rayN 提供路由规则
 
 1. 下载Windows客户端程序[tuic-client-1.0.0-x86_64-pc-windows-gnu.exe](https://github.com/EAimTY/tuic/releases/download/tuic-client-1.0.0/tuic-client-1.0.0-x86_64-pc-windows-gnu.exe)，重命名为tuic.exe，复制到v2rayN\bin\tuic文件夹。
 
 2. 下载客户端配置[config_client.json](https://github.com/chika0801/tuic-install/blob/main/config_client.json)，修改chika.example.com为证书中包含的域名，修改10.0.0.1为VPS的IP。
 
-3. 服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 tuic ——> Socks端口 50000
+3. v2rayN：服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 tuic ——> Socks端口 50000
 
 ![TUIC](https://github.com/chika0801/tuic-install/assets/88967758/00bcbfd2-e24d-4187-aeb9-e2afefab219d)
 
-### 由 sing-box 提供 Tun 模式（透明代理），v2rayN 管理配置
+### 由 sing-box 提供 Tun 模式（透明代理），由 sing-box 提供路由规则
 
 1. sing-box：参考[Windows 使用方法](https://github.com/chika0801/sing-box-examples/blob/main/README.md)，将[客户端配置](https://github.com/chika0801/sing-box-examples/blob/main/Tun/config_client_windows.json)进行如下修改。
 
@@ -81,4 +81,4 @@ systemctl disable --now tuic && rm -f /usr/local/bin/tuic /root/tuic_config.json
         },
 ```
 
-2. v2rayN：参考 由 v2rayN 提供 http/socks5 代理。服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 tuic ——> Socks端口 0。
+2. v2rayN：服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 tuic ——> Socks端口 0。

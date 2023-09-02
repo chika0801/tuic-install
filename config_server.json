@@ -7,7 +7,5 @@
     "private_key": "/root/private.key",
     "congestion_control": "bbr",
     "alpn": ["h3"],
-    "send_window": 33554432,
-    "receive_window": 16777216,
     "log_level": "info"
 }

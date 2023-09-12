@@ -5,29 +5,24 @@
 ### 安装
 
 1. 下载程序（**linux-amd64**）
-
 ```
 curl -Lo tuic-server https://github.com/EAimTY/tuic/releases/latest/download/tuic-server-1.0.0-x86_64-unknown-linux-gnu && chmod +x tuic-server && mv -f tuic-server /usr/local/bin/
 ```
 
 2. 下载配置
-
 ```
 curl -Lo /root/tuic-server_config.json https://raw.githubusercontent.com/chika0801/tuic-install/main/config_server.json
 ```
 
 3. 下载systemctl配置
-
 ```
 curl -Lo /etc/systemd/system/tuic-server.service https://raw.githubusercontent.com/chika0801/tuic-install/main/tuic-server.service && systemctl daemon-reload
 ```
 
 4. 上传证书和私钥
-
 - 将证书文件改名为 **fullchain.cer**，将私钥文件改名为 **private.key**，将它们上传到 **/root** 目录
 
 5. 启动程序
-
 ```
 systemctl enable --now tuic-server
 ```
@@ -52,9 +47,7 @@ systemctl disable --now tuic-server && rm -f /usr/local/bin/tuic-server /root/tu
 ### 由 v2rayN 提供 HTTP SOCKS5 代理，由 v2rayN 提供路由规则
 
 1. 下载Windows客户端程序[tuic-client-1.0.0-x86_64-pc-windows-gnu.exe](https://github.com/EAimTY/tuic/releases/download/tuic-client-1.0.0/tuic-client-1.0.0-x86_64-pc-windows-gnu.exe)，重命名为tuic-client.exe，复制到v2rayN\bin\tuic文件夹。
-
 2. 下载客户端配置[config_client.json](config_client.json)，修改chika.example.com为证书中包含的域名，修改10.0.0.1为VPS的IP。
-
 3. v2rayN：服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 tuic ——> Socks端口 50000
 
 ![TUIC](https://github.com/chika0801/tuic-install/assets/88967758/00bcbfd2-e24d-4187-aeb9-e2afefab219d)

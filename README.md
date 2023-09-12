@@ -19,7 +19,7 @@ curl -Lo /root/tuic-server_config.json https://raw.githubusercontent.com/chika08
 3. 下载systemctl配置
 
 ```
-curl -Lo /etc/systemd/system/tuic-server.service https://raw.githubusercontent.com/chika0801/tuic-install/main/tuic.service && systemctl daemon-reload
+curl -Lo /etc/systemd/system/tuic-server.service https://raw.githubusercontent.com/chika0801/tuic-install/main/tuic-server.service && systemctl daemon-reload
 ```
 
 4. 上传证书和私钥

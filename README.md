@@ -7,7 +7,7 @@
 1. 下载程序（**linux-amd64**）
 
 ```
-curl -Lo /root/tuic https://github.com/EAimTY/tuic/releases/latest/download/tuic-server-1.0.0-x86_64-unknown-linux-gnu && chmod +x /root/tuic && mv -f /root/tuic /usr/local/bin
+curl -Lo tuic https://github.com/EAimTY/tuic/releases/latest/download/tuic-server-1.0.0-x86_64-unknown-linux-gnu && chmod +x tuic && mv -f tuic /usr/local/bin/
 ```
 
 2. 下载配置

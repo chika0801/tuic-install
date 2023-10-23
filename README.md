@@ -83,7 +83,7 @@ systemctl disable --now tuic-server && rm -f /usr/local/bin/tuic-server /root/tu
 
 检查此处有 **tuic.exe** 或 **tuic-client.exe**
 
-```
+```jsonc
             {
                 "process_name": [ // 直连的 Windows 可执行程序
                     "xray.exe",
